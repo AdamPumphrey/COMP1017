@@ -1,10 +1,25 @@
+/* Multiple Selector Rule */
+h1,
+p{
+	font-family: Arial;
+}
+
 h1{
 	color: red;
 }
 
 p{
 	font-size: 18px;
+	color: blue;
 }
+
+/* Descendant Selector */
+footer p{
+	font-size: 10px;
+	font-family: Verdana;
+	background-color: lightblue;
+}
+
 
 /*
 Classes in CSS are preceded by a period

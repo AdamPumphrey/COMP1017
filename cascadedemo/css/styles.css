@@ -1,0 +1,27 @@
+footer{
+	background-color: #333;
+}
+
+ul{
+	list-style-type: circle;
+}
+
+footer,
+footer a{
+	color: white;
+}
+
+nav ul li{
+	border-bottom: 1px solid #333;
+}
+
+/* Pseudo-classes allow us to target elements in a specific way*/
+nav ul li a:hover{
+	color: purple;
+	font-weight: bold;
+}
+
+ul.navigation{
+	list-style-type: none;
+	padding-left: 10px;
+}

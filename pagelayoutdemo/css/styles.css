@@ -1,0 +1,60 @@
+body {
+	background-color: white;
+}
+
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+/* Typography */
+h1,
+h2{
+	padding: 10px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #747474;
+}
+
+/* Layout */
+nav,
+header,
+main,
+footer{
+	background-color: #ddd;
+}
+
+header,
+main,
+footer{
+	margin-top: 24px;
+}
+
+nav{
+	margin-top: 48px;
+}
+
+header{
+	height: 450px;
+}
+
+main{
+	height: 800px;
+}
+
+main section{
+	width: 896px;
+	border: 2px solid black;
+	background-color: white;
+	margin: 30px;
+	height: 200px;
+}
+
+footer{
+	height: 150px;
+	margin-bottom: 48px;
+}

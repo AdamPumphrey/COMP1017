@@ -1,0 +1,60 @@
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 36px;
+    margin: 30px 0;
+}
+
+/* YOUR STYLES */
+
+main{
+    background-color: #d3d3d3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.red-paint,
+.blue-paint,
+.green-paint,
+.yellow-paint{
+    width: 450px;
+    height: 300px;
+    margin: 20px 0px 0px 20px;
+}
+
+.red-paint{
+    background-color: red;
+}
+
+.blue-paint{
+    background-color: blue;
+}
+
+.green-paint{
+    background-color: green;
+}
+
+.yellow-paint{
+    background-color: yellow;
+}
+
+.full-width{
+    background-color: black;
+    width: 920px;
+    height: 50px;
+    margin: 20px;
+}

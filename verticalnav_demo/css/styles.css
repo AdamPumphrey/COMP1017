@@ -1,0 +1,46 @@
+body {
+	background-color: white;
+	background-image: url(../img/pattern-bg.gif);
+}
+
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+	font-family: 'Raleway', sans-serif;
+}
+
+.banner h1{
+	font-family: 'Alegreya', serif;
+	font-style: italic;
+	color: #f9ea4f;
+	font-size: 36px;
+}
+
+.banner{
+	background-image: url(../img/flower-banner.jpg);
+	height: 430px; /* 480px - 50px padding */
+	padding: 50px 0 0 680px;
+}
+
+.banner a{
+	color: white;
+	text-decoration: none;
+}
+
+.banner a:hover{
+	color: #f9ea4f;
+	font-weight: bold;
+}
+
+.banner li{
+	/* margin : 20px 0; */
+	line-height: 40px;
+}
+
+header{
+	background-color: white;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #959372;;
+}

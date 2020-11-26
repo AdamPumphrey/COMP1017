@@ -18,6 +18,11 @@ li a{
 	text-decoration: none;
 }
 
+li a,
+h2{
+	font-variant: small-caps;
+}
+
 h2{
 	font-size: 30px;
 	margin-top: 100px;

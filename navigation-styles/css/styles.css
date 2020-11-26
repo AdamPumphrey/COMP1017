@@ -1,0 +1,130 @@
+body {
+	background-color: white;
+	text-align: center;
+}
+
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.2;
+	font-family: 'EB Garamond', serif;
+}
+
+li a{
+	font-size: 24px;
+	font-weight: 500;
+	color: #f2dea0;
+	text-decoration: none;
+}
+
+h2{
+	font-size: 30px;
+	margin-top: 100px;
+}
+
+h2,
+main p{
+	color: #f2f2f2;
+}
+
+h3{
+	font-size: 16px;
+	margin: 20px 0;
+}
+
+footer p{
+	font-size: 12px;
+}
+
+h3,
+footer p{
+	color: #a4a5a6;
+}
+
+header,
+footer{
+	background-color: #3f3f40;
+	height: 100px;
+}
+
+header{
+	border-bottom: 1px solid #727273;
+}
+
+footer{
+	border-top: 1px solid #727273;
+}
+
+main{
+	height: 757px;
+	background-image: url(../img/background.png);
+}
+
+main p{
+	text-align: left;
+}
+
+nav,
+nav ul,
+.main-space{
+	display: flex;
+}
+
+nav img{
+	margin: 20px;
+	height: 60px;
+	width: 220px;
+}
+
+nav ul{
+	margin: 15px 0;
+}
+
+nav li{
+	margin: 20px 0 20px 60px;
+}
+
+nav a:hover{
+	border-bottom: 2px solid #f2dea0;
+}
+
+.left-column{
+	width: 645px;
+}
+
+.right-column{
+	margin-right: 20px;
+	width: 295px;
+}
+
+.right-column li{
+	margin-bottom: 20px;
+}
+
+.right-column a:hover{
+	border-bottom: 2px solid #f2dea0;
+}
+
+.first{
+	margin: 35px 0 20px 0;
+}
+
+.second{
+	margin-bottom: 45px;
+}
+
+/*  COLOUR PALETTE
+
+Create a colour palette by using the
+Eyedropper [I] and the Type Tool [T]
+in Photoshop and copying the hex codes
+from the Colour Picker or Colour Panel.
+
+Dark Grey BG       #3f3f40;
+Light Grey Border  #727273;
+Yellow Hyperlinks  #f2dea0;
+Off-White Text     #f2f2f2;
+Footer Text        #a4a5a6;
+
+*/

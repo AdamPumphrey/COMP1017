@@ -1,0 +1,124 @@
+body {
+    background-image: url(../img/page-background.gif);
+    background-repeat: repeat-x;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Nav Element */
+
+.site-navigation {
+    height: 155px;
+}
+
+.site-navigation img {
+    margin-top: 16px;
+}
+
+.site-navigation ul {
+    width: 490px;
+    margin: 0 auto;
+}
+
+.site-navigation li {
+    margin: 8px 25px;
+    float: left;
+}
+
+.site-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-navigation a:hover {
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+}
+
+/* Header Element */
+
+.contact-us h1 {
+    line-height: 0.8;
+    font-size: 72px;
+    color: #7a777c;
+    width: 450px;
+    border-bottom: 1px solid #d9d9d9;
+    margin: auto;
+    margin-top: 115px;
+    padding-bottom: 42px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Form Elements */
+input,
+textarea,
+button{
+    background-color: #efefef;
+    border: 1px solid #c4c4c4;
+    line-height: 30px;
+    padding-left: 40px;
+}
+
+input,
+button{
+    width: 320px;
+}
+
+textarea{
+    background-image: url(../img/form-message-icon.gif);
+    background-repeat: no-repeat;
+    max-width: 320px;
+    min-width: 320px;
+    max-height: 155px;
+    min-height: 155px;
+}
+
+label{
+    color: #cacaca;
+    font-family: Verdana;
+    font-size: 12px;
+    display: block;
+}
+
+.your-name input{
+    background-image: url(../img/form-name-icon.gif);
+    background-repeat: no-repeat;
+}
+
+.email-address input{
+    background-image: url(../img/form-email-icon.gif);
+    background-repeat: no-repeat;
+}
+
+.phone-number input{
+    background-image: url(../img/form-phone-icon.gif);
+    background-repeat: no-repeat;
+}
+
+form div{
+    margin-top: 50px;
+}
+
+.submit-button button{
+    width: 120px;
+    padding-left: 0;
+    color: #8a8a8a;
+}
+
+main{
+    margin-bottom: 200px;
+}
+
+.submit-button button:hover{
+    cursor: pointer;
+}

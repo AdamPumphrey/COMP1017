@@ -1,0 +1,331 @@
+.container{
+	width: 960px;
+	margin: 0 auto;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+body,
+.rectangle{
+	background-color: white;
+}
+
+/*
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+
+.hidden{
+	display: none;
+}
+
+.header-nav{
+	height: 100px;
+}
+
+.header-nav,
+.shop-button{
+	background-color: #06b69a;
+}
+
+.header-nav,
+.header-main p,
+.shop-button a,
+.information p,
+.right-column2 p,
+.right-column2 a,
+.left-column3 p,
+.left-column3 a,
+.footer-logo p,
+.footer-nav section,
+.ac-disclaimer{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-main h2,
+.left-column h2,
+.rectangle h2,
+.right-column2 h3,
+.left-column3 h3{
+	font-family: 'Playfair Display', serif;
+}
+
+.header-nav,
+.header-nav ul,
+.about-us,
+.top-row,
+.bottom-row,
+.footer-nav{
+	display: flex;
+}
+
+.header-nav img{
+	margin: 10px;
+}
+
+.header-nav p,
+.header-nav a{
+	font-weight: 600;
+}
+
+.header-nav p,
+.header-nav a,
+.header-main h2,
+.header-main p,
+.shop-button a,
+.right-column2,
+.left-column3,
+.right-column2 a,
+.left-column3 a{
+	color: white;
+}
+
+.header-nav p,
+.right-column2 a,
+.left-column3 a,
+.footer-logo p,
+.footer-nav section{
+	font-size: 24px;
+}
+
+.header-nav p{
+	margin: 30px 0 30px 10px;
+}
+
+.header-nav a,
+.shop-button a,
+.right-column2 a,
+.left-column3 a,
+.footer-nav a{
+	text-decoration: none;
+}
+
+.header-nav a{
+	margin-left: 35px;
+}
+
+.header-nav a,
+.header-main p{
+	font-size: 30px;
+}
+
+.header-nav a:hover,
+.right-column2 a:hover,
+.left-column3 a:hover{
+    border-bottom: 2px solid white;
+}
+
+.header-nav li{
+	margin: 25px 0;
+}
+
+.header-nav ul{
+	margin: 0 40px 0 450px;
+}
+
+.header-main{
+	background-image: url(../img/background-succ.png);
+	height: 600px;
+}
+
+.header-main h2{
+	font-size: 60px;
+	line-height: 60px;
+	padding: 90px 450px 0 45px;
+}
+
+.header-main p,
+.footer-nav p,
+.footer-nav a,
+.ac-disclaimer{
+	font-weight: 300;
+}
+
+.header-main p{
+	padding: 30px 500px 40px 45px;
+}
+
+.shop-button,
+.left-column h2,
+.right-column,
+.footer-logo p,
+.footer-nav h3,
+.footer-nav p,
+.footer-nav li,
+.ac-disclaimer{
+	text-align: center;
+}
+
+.shop-button,
+.right-column2 h3,
+.left-column3 h3{
+	font-size: 36px;
+}
+
+.shop-button{
+	margin-left: 45px;
+	border-radius: 10px;
+	height: 80px;
+	width: 245px;
+	line-height: 75px;
+}
+
+.shop-button a:hover,
+.footer-nav a:hover{
+	text-decoration: underline;
+}
+
+.about-us{
+	margin-top: 70px;
+}
+
+.left-column{
+	color: #4f6863;
+	width: 520px;
+	height: 503px;
+}
+
+.left-column h2{
+	font-size: 72px;
+}
+
+.information p,
+.right-column2 p,
+.left-column3 p{
+	line-height: normal;
+}
+
+.information p{
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+.disclaimer p{
+	font-size: 14px;
+}
+
+.right-column{
+	width: 440px;
+	height: 453px;
+}
+
+.right-column img{
+	margin: 50px 0 0 40px;
+}
+
+.instructions-header{
+	margin-top: 110px;
+	background-image: url(../img/mainheading-background.png);
+	height: 200px;
+}
+
+.rectangle h2,
+.footer-logo p{
+	color: #03342a;
+}
+
+.rectangle h2{
+	font-size: 48px;
+	/*Font size should be 48 but I can't get it to fit in the rectangle*/
+	line-height: 67px;
+}
+
+.rectangle{
+	width: 538px;
+	height: 67px;
+	margin: 70px 210px;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.top-row,
+.bottom-row{
+	height: 500px;
+}
+
+.top-row,
+.disclaimer p{
+	margin-top: 40px;
+}
+
+.right-column2,
+.left-column3{
+	background-color: #0e1c1c;
+}
+
+.right-column2 h3,
+.left-column3 h3{
+	margin: 25px 0 30px 40px;
+}
+
+.right-column2 p,
+.left-column3 p,
+.ac-disclaimer{
+	font-size: 16px;
+}
+
+.right-column2 p,
+.left-column3 p{
+	margin-right: 40px;
+	margin: 0 40px 15px 40px;
+}
+
+.rc-button{
+	margin: 70px 0 30px 40px;
+}
+
+.lc-button{
+	margin: 90px 0 30px 40px;
+}
+
+hr,
+.ac-disclaimer{
+	width: 880px;
+}
+
+hr{
+	background-color: #19211f;
+	margin: 100px 0 70px 40px;
+}
+
+.footer-logo img{
+	margin: 0 440.5px;
+}
+
+.footer-logo p{
+	margin-bottom: 60px;
+}
+
+.footer-nav{
+	height: 360px;
+	margin-bottom: 90px;
+}
+
+.footer-nav section,
+.footer-nav a,
+.ax-disclaimer{
+	color: #19211f;
+}
+
+.footer-nav section{
+	width: 280px;
+	height: 300px;
+	margin-left: 30px;
+}
+
+.footer-nav p{
+	margin: 35px 0 0 40px;
+	width: 200px;
+}
+
+.footer-nav h3{
+	margin-bottom: 35px;
+}
+
+.ac-disclaimer{
+	margin: 0 0 40px 40px;
+}
+
+.ac-disclaimer p{
+	margin-top: 25px;
+}

@@ -225,8 +225,8 @@ font-family: 'Playfair Display', serif;
 }
 
 .rectangle h2{
-	font-size: 48px;
-	/*Font size should be 48 but I can't get it to fit in the rectangle*/
+	font-size: 46px;
+	/*Font size should be 48 according to Photopea but I can't get it to fit in the rectangle*/
 	line-height: 67px;
 }
 

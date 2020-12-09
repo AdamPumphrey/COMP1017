@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Same Page Linking Demo</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav id="top">
+                <h2>navigation</h2>
+                <ul>
+                    <li><a href="#section-id">Section</a></li>
+                    <li><a href="#footer-id">Footer</a></li>
+                </ul>
+            </nav>
+            <header>
+                <h1>header</h1>
+            </header>
+            <main>
+                <h2>main</h2>
+                <section id="section-id">
+                    <h2>section</h2>
+                    <p>
+                        Link to the file <a href="files/anchor-tags-revisited.pdf" target="_blank">Anchor Tags Revisited</a>
+                    </p>
+                    <a href="#top">Top</a>
+                </section>
+            </main>
+            <footer id="footer-id">
+                <h2>footer</h2>
+                <a href="#top">Top</a>
+            </footer>
+        </div>
+    </body>
+
+</html>

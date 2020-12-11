@@ -1,0 +1,352 @@
+.container,
+.contactcontainer{
+	width: 960px;
+	margin: 0 auto;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+body{
+	background-color: #37342f;
+}
+
+.contactcontainer{
+	background-image: url(../img/truck.png);
+}
+
+.home{
+	background-image: url(../img/head-banner.png);
+	height: 1000px;
+}
+
+.home,
+.firstrow,
+.secondrow{
+	margin-bottom: 100px;
+}
+
+.headernav{
+	height: 100px;
+}
+
+.headernav,
+.headernav ul,
+.firstrow,
+.schedule{
+	display: flex;
+}
+
+.findusinfo p,
+.bold,
+.contactmain p{
+	font-size: 16px;
+}
+
+.headernav,
+.headbanner p,
+.day,
+footer h2,
+.sendbutton button,
+.subheader p{
+	font-size: 24px;
+}
+
+.headernav,
+.headernav a,
+.headbanner p,
+.findusbutton a,
+.firstrow p,
+.findusinfo p,
+.schedule li,
+footer h2,
+footer p,
+.contactmain p,
+.checkbox label,
+.sendbutton button{
+	color: #ddd6d0;
+}
+
+.headernav,
+.headbanner,
+.contactmain{
+	background-color: rgba(45, 40, 36, 0.8);
+}
+
+.headernav,
+.headbanner h2,
+.findusbutton a,
+.firstrow h2,
+.findusinfo h2,
+.contactmain h2{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.headbanner p,
+.firstrow p,
+.findusinfo p,
+.schedule li,
+footer h2,
+footer p,
+.contactmain p,
+label,
+.sendbutton button{
+	font-family: 'Cantarell', sans-serif;
+}
+
+.headernav a,
+.findusbutton a{
+	text-decoration: none;
+}
+
+.headernav a:hover,
+.findusbutton a:hover,
+.sendbutton button:hover{
+	text-decoration: underline;
+}
+
+.headernav ul{
+	margin: 25px 50px 25px 402px;
+}
+
+.headernav li{
+	margin: 5px 0 0 53px;
+}
+
+.headernav img{
+	margin: 10px 0px 10px 50px;
+}
+
+.headbanner{
+	height: 400px;
+	margin: 250px 0 0 205px;
+}
+
+.headbanner,
+.contactmain{
+	width: 550px;
+	border: 1px solid #ff7f11;
+}
+
+.headbanner h2{
+	margin: 40px 0 0 55px;
+}
+
+.headbanner h2,
+.firstrow h2,
+.findusinfo h2,
+.findusinfo a,
+.contactmain h2,
+label{
+	color: #ff7f11;
+}
+
+.headbanner h2,
+.contactmain h2{
+	font-size: 72px;
+}
+
+.headbanner p{
+	margin: 0 45px 0 55px;
+}
+
+.headbanner p,
+.firstrow p,
+.findusinfo p,
+.schedule li,
+.contactmain p{
+	line-height: 1.3;
+}
+
+.findusbutton{
+	width: 210px;
+	height: 65px;
+	margin: 30px 0px 30px 170px;
+	line-height: 70px;
+}
+
+.findusbutton,
+.sendbutton button{
+	border-radius: 5px;
+	background-color: #ff7f11;
+}
+
+.findusbutton a{
+	white-space: nowrap;
+	font-size: 30px;
+}
+
+.firstrow{
+	height: 480px;
+}
+
+.firstrow h2{
+	margin-top: 40px;
+}
+
+.firstrow h2,
+.findusinfo h2{
+	font-size: 48px;
+}
+
+.firstrow p{
+	margin: 0px 50px 15px 50px;
+}
+
+.leftcolumn,
+hr{
+	background-color: #2d2824;
+}
+
+.secondrow{
+	background-image: url(../img/flour.png);
+}
+
+.secondrow,
+.findusinfo{
+	height: 715px;
+}
+
+.findusinfo{
+	background-color: rgba(45, 40, 36, 0.5);
+}
+
+.findusinfo h2{
+	padding-top: 35px;
+	margin-bottom: 30px;
+}
+
+.findusinfo h2,
+.schedule ul,
+.findusbutton,
+.firstrow h2,
+footer h2,
+footer img,
+footer p,
+.contactmain h2,
+hr{
+	text-align: center;
+}
+
+.findusinfo p,
+footer p{
+	margin: 0 50px;
+}
+
+.schedule{
+	flex-wrap: wrap;
+	margin: 0 50px 50px 50px;
+}
+
+.schedule ul{
+	width: 220px;
+	margin: 50px 0 0 50px;
+}
+
+.schedule li{
+	padding-bottom: 13.5px;
+}
+
+.bold,
+.boldcontact p{
+	font-weight: bold;
+}
+
+footer{
+	background-color: #4e473f;
+	height: 280px;
+}
+
+footer h2{
+	margin-bottom: 25px;
+	padding-top: 50px;
+}
+
+footer img{
+	margin-left: 15px;
+}
+
+.footerpics{
+	margin: 0 0 30px 350px;
+}
+
+footer p{
+	font-size: 14px;
+}
+
+.contactmain{
+	height: 1305px;
+	margin: 100px 0 95px 205px;
+}
+
+.contactmain h2{
+	margin-top: 50px;
+	height: 92px;
+}
+
+.contactmain p{
+	margin: 15px 0 0 55px;
+	width: 424px;
+}
+
+.nomargin p{
+	margin-top: 0;
+}
+
+input{
+	width: 440px;
+}
+
+input,
+.sendbutton button{
+	height: 50px;
+}
+
+input,
+textarea{
+	background-color: #ddd6d0;
+}
+
+textarea{
+	max-width: 440px;
+    min-width: 440px;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+label{
+	font-size: 18px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.checkbox label{
+	display: inline;
+}
+
+.checkbox input{
+	width: 18px;
+	height: 18px;
+}
+
+form div{
+	margin: 0 0 5px 55px;
+}
+
+.sendbutton button{
+	width: 200px;
+	margin: 50px 0 0 120px;
+}
+
+.sendbutton button:hover{
+	cursor: pointer;
+}
+
+hr{
+	border: 1px solid #ddd6d0;
+	width: 444px;
+	margin: 50px 0 50px 55px;
+}
+
+.hidden{
+	display: none;
+}
